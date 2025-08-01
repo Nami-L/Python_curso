@@ -135,7 +135,7 @@ exponente = a ** b
 Los operadores de comparación se utilizan para comparar dos valores y devuelve un valor booleano. Los operadores en ```Python``` son :
 
 - **Igual a (==) :** devuelve True si ambos valores son iguales.
-- **Diferente de (!=) :**devuelve True si los valores son diferentes.
+- **Diferente de (!=) :** devuelve True si los valores son diferentes.
 - **Mayor que (>) :** devuelve True si el primer valor es mayor que el segundo.
 - **Menor que (<) :** devuelve True si el primer valor es menor que el segundo.
 - **Mayor o igual que (>=) :** devuelve True si el primer valor es mayor o igual que el segundo.
