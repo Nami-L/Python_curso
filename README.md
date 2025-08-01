@@ -138,3 +138,5 @@ Los operadores de comparación se utilizan para comparar dos valores y devuelve 
 - and : devuelve True si ambas condiciones son verdaderas.
 - or : devuelve True si al menos una de las condiciones es verdadera.
 - not : invierte el valor dfe una condición; True si la condición es falta y False si la condición es verdadera.
+
+```Python```
