@@ -104,3 +104,14 @@ Algunas reglas que se recomiendan al momento de usar las variables son las sigui
 - Python distingue entre mayúsculas y minúsculas, por lo que "Edad", "edad", "EDAD" son variables diferentes.
 
 ### 2.2 Operadores 
+
+## Aritmeticos
+Los operadores aritméticos se utilizan para realizar operaciones matemáticas básicas. Los principales operadores aritméticos son:
+
+- **Suma** (+) : suma de dos valores.
+- Resta (-) : resta el segundo valor del primero.
+- Multiplicación (*) : multiplica dos valores.
+- División (/) : divide el primer valor por el segundo y devuelve el resultado de tipo flotante.
+- División (//) : divide el primer valor por el segundo y devuelve el un resultado de tipo entero (se descarta la parte decimal).
+- Modulo (%) : devuelve el resto de la división entre el primer valor y el segundo.
+- Exponenciación (**) : elevar el primer valro a la potencia del segundo.
