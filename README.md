@@ -114,7 +114,7 @@ Los operadores aritméticos se utilizan para realizar operaciones matemáticas b
 - **División (/) :** divide el primer valor por el segundo y devuelve el resultado de tipo flotante.
 - **División (//) :** divide el primer valor por el segundo y devuelve el un resultado de tipo entero (se descarta la parte decimal).
 - **Modulo (%) :** devuelve el resto de la división entre el primer valor y el segundo.
-- **Exponenciación :** elevar el primer valro a la potencia del segundo.
+- **Exponenciación (\*\*) :** elevar el primer valro a la potencia del segundo.
 
 Ejemplo :
 
@@ -133,6 +133,13 @@ exponente = a ** b
 
 ## Comparación 
 Los operadores de comparación se utilizan para comparar dos valores y devuelve un valor booleano. Los operadores en ```Python``` son :
+
+- **Igual a (==) :** devuelve True si ambos valores son iguales.
+- **Diferente de (!=) :**devuelve True si los valores son diferentes.
+- **Mayor que (>) :** devuelve True si el primer valor es mayor que el segundo.
+- **Menor que (<) :** devuelve True si el primer valor es menor que el segundo.
+- **Mayor o igual que (>=) :** devuelve True si el primer valor es mayor o igual que el segundo.
+- **Menor o igual que (<=) :** devuelve True si el primer valor es menor o igual que el segundo.
 
 
 
