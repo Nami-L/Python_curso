@@ -36,6 +36,53 @@ usando dos líneas
 
 ```
 
+### Sensibilidad a mayúsculas y minúsculas
+
+Python es sensible para distinguir entre mayúsculas y minúsculas. 
+
+### Punto y coma
+Python no requiere el uso de punto y coma (;) al final de cada instrucción, pero si se necesita escribir varias instrucciones en una sola línea, puedes separarlas con punto y coma. Por ejemplos
+
+```Python
+instruccion_1; instruccion_2; instruccion_3
+```
+## 2. Fundamentos de Python 
+
+### Enteros (int)
+Los números enteros son aquellos que no tienen parte decimal.  Ejemplo
+
+```Python
+a = 25
+b = 25
+```
+
+### Flotante (float)
+
+Los números flotantes, también conocidos como números de punto flotante, son aquellos que tienen una parte decimal. Ejemplo
+
+```Python
+a = 25.55
+b = 25.99
+```
+
+### Cadenas de texto (string)
+
+Las cadenas de texto son secuencias de caracteres encerradas entre comillas simplres ('') o dobles (" "). Ejemplo
+
+```Python
+nombre = "Luis"
+apellido = "Namigtle"
+```
+
+### Booleanos (True/False)
+Se utilizan comúnmente en expresiones condicionales y operaciones lógicas. Ejemplo
+
+```Python
+uno_es_mayor_de_dos = True
+dos_es_menor_que_uno = False
+```
+
+
 ## 2.1 Variables
 Las variables son contenedores que nos permiten almacenar y manipular datos en nuestros programas.
 
