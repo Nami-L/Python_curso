@@ -81,7 +81,7 @@ Se utilizan comúnmente en expresiones condicionales y operaciones lógicas. Eje
 uno_es_mayor_de_dos = True
 dos_es_menor_que_uno = False
 ```
-
+Las expresiones booleanas en Python, siempre comienza con una letra mayúscula.
 
 ## 2.1 Variables
 Las variables son contenedores que nos permiten almacenar y manipular datos en nuestros programas.
@@ -102,3 +102,5 @@ Algunas reglas que se recomiendan al momento de usar las variables son las sigui
 - No pueden comenzar con un número las variables.
 - No se pueden utilizar palabras clave reservadas de Python como nombres de variables (por ejemplo, if,else,for,while,etc)
 - Python distingue entre mayúsculas y minúsculas, por lo que "Edad", "edad", "EDAD" son variables diferentes.
+
+### 2.2 Operadores 
