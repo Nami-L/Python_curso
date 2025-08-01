@@ -3,6 +3,15 @@
 ## Curso Santander
 - Luis Enrique Namigtle Jimenez
 
+## 1 Introducción a Python
+Python se diseño con el objetivo de ser un lenguaje fácil de leer y escribir con una sintaxis clara y concisa.
+
+### Características
+- Legibilidad : Utiliza una sintaxis clara y sencilla para facilitar la lectura y compresión del código.
+- Multiplataforma : Se puede ejecturar en diferentes sistemas operativos como Windows, macOs y Linux.
+- Tipado dinámico : No es necesita declarar explícitamente el tipo de datos de las variables.
+- Aplicaciones : Desarrollo web, Ciencia de datos, Inteligencia Artificial, Automatización de tareas, desarrollo de juegos etc.
+
 ## 2.1 Variables
 Las variables son contenedores que nos permiten almacenar y manipular datos en nuestros programas.
 
