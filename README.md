@@ -13,7 +13,7 @@ Python se diseño con el objetivo de ser un lenguaje fácil de leer y escribir c
 - Aplicaciones : Desarrollo web, Ciencia de datos, Inteligencia Artificial, Automatización de tareas, desarrollo de juegos etc.
 
 ### Indentación
-La indentación (espacios o tabulaciones al inicio de una línea) se utiliza para delimitar bloques de código es decir, Python utiliza la indentación para determinar el alcance de las declaraciones. El siguiente ejemplo se muestra utilizando un if.
+La indentación (espacios o tabulaciones al inicio de una línea) se utiliza para delimitar bloques de código es decir, ```Python``` utiliza la indentación para determinar el alcance de las declaraciones. El siguiente ejemplo se muestra utilizando un if.
 
 ```python
 if condicion:
@@ -24,7 +24,7 @@ else :
     instruccion_4
 ```
 ### Comentarios
-Los comentarios son líneas de texto en el código que son ignorados por el intérprete de Python. Es utilizado para explicar o documentar el código. Para hacer comentarios en Python basta con colocar el simbolo #, mientras que para comentarios de varias líneas se encierran entre triles comillas """. Veamos el ejemplo
+Los comentarios son líneas de texto en el código que son ignorados por el intérprete de ```Python```. Es utilizado para explicar o documentar el código. Para hacer comentarios en ```Python``` basta con colocar el simbolo #, mientras que para comentarios de varias líneas se encierran entre triles comillas """. Veamos el ejemplo
 
 ```Python
 #Este es un comentarios de python usando una línea
@@ -38,10 +38,10 @@ usando dos líneas
 
 ### Sensibilidad a mayúsculas y minúsculas
 
-Python es sensible para distinguir entre mayúsculas y minúsculas. 
+```Python``` es sensible para distinguir entre mayúsculas y minúsculas. 
 
 ### Punto y coma
-Python no requiere el uso de punto y coma (;) al final de cada instrucción, pero si se necesita escribir varias instrucciones en una sola línea, puedes separarlas con punto y coma. Por ejemplos
+```Python``` no requiere el uso de punto y coma (;) al final de cada instrucción, pero si se necesita escribir varias instrucciones en una sola línea, puedes separarlas con punto y coma. Por ejemplos
 
 ```Python
 instruccion_1; instruccion_2; instruccion_3
@@ -95,13 +95,13 @@ edad= 25
 Sexo = "Masculino"
 a=b=c= True
 ```
-Python automáticamente infiere en el tipo de datos de cada variable en función del valor asignado.
+```Python``` automáticamente infiere en el tipo de datos de cada variable en función del valor asignado.
 
 ### Normas para nombrar variables
 Algunas reglas que se recomiendan al momento de usar las variables son las siguientes :
 - No pueden comenzar con un número las variables.
 - No se pueden utilizar palabras clave reservadas de Python como nombres de variables (por ejemplo, if,else,for,while,etc)
-- Python distingue entre mayúsculas y minúsculas, por lo que "Edad", "edad", "EDAD" son variables diferentes.
+- ```Python``` distingue entre mayúsculas y minúsculas, por lo que "Edad", "edad", "EDAD" son variables diferentes.
 
 ### 2.2 Operadores 
 
@@ -132,11 +132,23 @@ exponente = a ** b
 ```
 
 ## Comparación 
+Los operadores de comparación se utilizan para comparar dos valores y devuelve un valor booleano. Los operadores en ```Python``` son :
 
-Los operadores de comparación se utilizan para comparar dos valores y devuelve un valor booleano. Los operadores en python son :
+
+
+
+## Lógicos
+Los operadores lógicos se utilizan para combinar expresiones conficionales y evaluar múltiples condiciones. Los operadores lógicos en ```Python``` son:
 
 - and : devuelve True si ambas condiciones son verdaderas.
 - or : devuelve True si al menos una de las condiciones es verdadera.
 - not : invierte el valor dfe una condición; True si la condición es falta y False si la condición es verdadera.
 
-```Python```
+```Python
+a = 10
+b = 5
+
+a_and_b = (a > 5) and (b < 5)
+a_or_b = (a > 5) or (b < 5)
+not_b = not ((a > 5) and (b < 5)) 
+```
