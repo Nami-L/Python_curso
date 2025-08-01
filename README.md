@@ -115,3 +115,30 @@ Los operadores aritméticos se utilizan para realizar operaciones matemáticas b
 - **División (//) :** divide el primer valor por el segundo y devuelve el un resultado de tipo entero (se descarta la parte decimal).
 - **Modulo (%) :** devuelve el resto de la división entre el primer valor y el segundo.
 - **Exponenciación (**) :** elevar el primer valro a la potencia del segundo.
+
+Ejemplo :
+
+```Python
+a = 100
+b = 100
+
+suma = a + b
+resta = a - b
+mutiplicacion = a * b
+division_flotante = a / b
+division_entera = a // b
+modulo = a % b
+exponente = a ** b
+```
+```verilog
+
+module cand(
+    input a,
+    input b,
+    output c
+
+)
+
+endmodule
+
+```
