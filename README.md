@@ -91,9 +91,9 @@ Para declarar una variable y asignar un valor, utilizamos el operados de asignac
 
 ```python
 nombre = "Luis"
-edad= 25
+edad = 25
 Sexo = "Masculino"
-a=b=c= True
+a = b = c = True
 ```
 ```Python``` automáticamente infiere en el tipo de datos de cada variable en función del valor asignado.
 
