@@ -114,7 +114,7 @@ Los operadores aritméticos se utilizan para realizar operaciones matemáticas b
 - **División (/) :** divide el primer valor por el segundo y devuelve el resultado de tipo flotante.
 - **División (//) :** divide el primer valor por el segundo y devuelve el un resultado de tipo entero (se descarta la parte decimal).
 - **Modulo (%) :** devuelve el resto de la división entre el primer valor y el segundo.
-- **Exponenciación (**) :** elevar el primer valro a la potencia del segundo.
+- **Exponenciación :** elevar el primer valro a la potencia del segundo.
 
 Ejemplo :
 
@@ -130,15 +130,11 @@ division_entera = a // b
 modulo = a % b
 exponente = a ** b
 ```
-```verilog
 
-module cand(
-    input a,
-    input b,
-    output c
+## Comparación 
 
-)
+Los operadores de comparación se utilizan para comparar dos valores y devuelve un valor booleano. Los operadores en python son :
 
-endmodule
-
-```
+- and : devuelve True si ambas condiciones son verdaderas.
+- or : devuelve True si al menos una de las condiciones es verdadera.
+- not : invierte el valor dfe una condición; True si la condición es falta y False si la condición es verdadera.
