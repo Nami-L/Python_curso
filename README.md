@@ -13,7 +13,7 @@ Python se diseño con el objetivo de ser un lenguaje fácil de leer y escribir c
 - Aplicaciones : Desarrollo web, Ciencia de datos, Inteligencia Artificial, Automatización de tareas, desarrollo de juegos etc.
 
 ### Indentación
-La indentación (espacios o tabulaciones al inicio de una línea) se utiliza para delimitar bloques de código es decir, python utiliza la indentación para determinar el alcance de las declaraciones. El siguiente ejemplo se muestra utilizando un if.
+La indentación (espacios o tabulaciones al inicio de una línea) se utiliza para delimitar bloques de código es decir, Python utiliza la indentación para determinar el alcance de las declaraciones. El siguiente ejemplo se muestra utilizando un if.
 
 ```python
 if condicion:
@@ -22,6 +22,18 @@ if condicion:
 else :
     instruccion_3
     instruccion_4
+```
+### Comentarios
+Los comentarios son líneas de texto en el código que son ignorados por el intérprete de Python. Es utilizado para explicar o documentar el código. Para hacer comentarios en Python basta con colocar el simbolo #, mientras que para comentarios de varias líneas se encierran entre triles comillas """. Veamos el ejemplo
+
+```Python
+#Este es un comentarios de python usando una línea
+
+"""
+Este es un comentarios de python
+usando dos líneas
+"""
+
 ```
 
 ## 2.1 Variables
